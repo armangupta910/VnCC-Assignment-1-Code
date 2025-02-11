@@ -116,6 +116,11 @@ Ensure that the `notes` and `search` microservices are configured to communicate
 
 Open your web browser and navigate to the external IP address of the `frontend-vm` on port 8080 (e.g., `http://your_external_ip:8080`).
 
+## Note
+
+You will need to to edit the script.js file in the frontend folder to replace the search VM and notes VM internal IP links with those of your VMs created.
+
+
 ## Troubleshooting
 
 - **Firewall Issues:** Ensure that the firewall rules are correctly configured to allow traffic between the VMs.
